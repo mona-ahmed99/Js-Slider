@@ -1,0 +1,50 @@
+/* body{
+    background-color: #000 !important;
+    cursor: none;
+}
+
+
+.test{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+} */
+body{
+    font-family: 'segeo ui light';
+}
+.item{
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.item-caption{
+    background-color: #fff;
+    bottom: 20px;
+   left: 10%;
+    width: 80%;
+    padding: 10px;
+}
+#lightBoxContainer{
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background-color: rgba(0, 0, 0, .54);
+}
+#lightBoxItem{
+    width: 50%;
+    height: 500px;
+    background-image: url(../images/portfolio-1.jpg);
+    background-size: cover;
+}
+#closeBtn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+#lightBoxItem i{
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+}
